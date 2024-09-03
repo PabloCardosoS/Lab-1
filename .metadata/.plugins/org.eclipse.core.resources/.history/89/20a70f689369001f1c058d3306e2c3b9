@@ -1,0 +1,54 @@
+package whilelista11;
+
+import java.util.Scanner;
+
+public class Ex011 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int i = 0;
+		int somaPar = 0;
+		int somaImpar = 0;
+
+		System.out.print("Digite o primeiro número: ");
+		int n1 = scanner.nextInt();
+		System.out.print("Digite o segundo número: ");
+		int n2 = scanner.nextInt();
+		
+		
+		if (n1 < n2) {
+			while (n1 <= n2) {
+				if (Math.abs(n1) % 2 == 0) {    // 2 ===== 10	
+					somaPar += n1;
+					somaImpar += n1 + 1;
+				} else {
+					somaPar += n1 + 1;
+					somaImpar += n1;
+				}
+				n1 += 2;
+				
+			if (Math.abs(n1) % 2 == 0) {    // 2 ===== 10	
+				somaPar += n1;
+							
+				
+			} else {
+				somaImpar += n1;
+			
+			
+			while (n1 < n2) {
+				soma = n1
+				n1 += 2;
+			}
+		} else if (n2 < n1) {
+			
+			
+			
+			
+			
+		} else {
+			System.out.println("Os números são iguais.\nPortanto, não existem pares e impares entre eles.");
+		}
+		
+	}
+
+}

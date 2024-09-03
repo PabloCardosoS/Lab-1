@@ -1,0 +1,23 @@
+package whilelista6;
+
+import java.util.Scanner;
+
+public class Ex006 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		i = 0;
+		while (i < 20) {
+		System.out.print("Digite um número real: ");
+		float n = Float.toString(scanner.nextFloat());
+		n++;
+		}
+		
+		float n;
+		
+		
+		while
+
+	}
+
+}

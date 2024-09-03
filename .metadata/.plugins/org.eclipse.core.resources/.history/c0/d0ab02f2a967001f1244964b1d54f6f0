@@ -1,0 +1,24 @@
+package ex002;
+
+import java.util.Scanner;
+
+public class Ex002 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.printl("Digite o primeiro número inteiro: ");
+		int num1 = scanner.nextInt();
+		
+		
+		System.out.println("Digite o segundo número inteiro: ");
+		
+		System.out.println("Digite o terceiro número inteiro: ");
+		
+		System.out.println("Digite o quarto número inteiro: ");
+		
+		System.out.println("Digite o quinto número inteiro: ");
+	}
+
+}

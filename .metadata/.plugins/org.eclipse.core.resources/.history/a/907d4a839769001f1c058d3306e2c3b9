@@ -1,0 +1,23 @@
+package whilelista12;
+
+import java.util.Scanner;
+
+public class Ex012 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int soma = 0;
+		int cc = 0;
+		double i;
+		double media = 0;
+		while (i > 0) {
+			System.out.print("Digite um número positivo: ");
+			double n = scanner.nextDouble();
+			soma += i;
+			cc++;
+			media = soma / cc;
+		} 
+		
+	}
+
+}

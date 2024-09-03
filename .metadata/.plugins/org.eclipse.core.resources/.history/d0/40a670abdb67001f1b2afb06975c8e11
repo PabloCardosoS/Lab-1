@@ -1,0 +1,21 @@
+package sem3ex010;
+
+import java.util.Scanner;
+import java.lang.String;
+
+public class Ex010 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Digite uma letra: ");
+		char letra = scanner.next().charAt(0);
+				
+		if (letra == 'a') {
+			System.out.println("É vogal");
+		} else {
+			System.out.println("Não é vogal");
+		}
+
+	}
+
+}

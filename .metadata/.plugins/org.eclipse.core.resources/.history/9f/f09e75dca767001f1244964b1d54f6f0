@@ -1,0 +1,22 @@
+package ex001;
+
+import java.util.Scanner;
+
+public class Ex001 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Digite seu nome: \n");
+		String nome = scanner.nextLine();
+		
+		System.out.print("Digite seu cep: \n");
+		System.out.print("Digite seu bairro: \n");
+		System.out.print("Digite sua cidade: \n");
+		System.out.print("Digite seu Estado: ");
+		
+		
+	}
+
+}

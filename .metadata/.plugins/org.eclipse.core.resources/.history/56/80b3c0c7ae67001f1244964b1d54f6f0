@@ -1,0 +1,28 @@
+package ex003;
+
+import java.util.Scanner;
+
+public class Ex003 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+	
+		System.out.println("Digite o primeiro número inteiro: ");
+		int A = scanner.nextInt();
+		System.out.println("Digite o segundo número inteiro: ");
+		int B = scanner.nextInt();
+		System.out.println("Digite o terceiro número inteiro: ");
+		int C = scanner.nextInt();
+		System.out.println("Digite o quarto número inteiro: ");
+		int D = scanner.nextInt();
+		System.out.println("Digite o quinto número inteiro: ");
+		int E = scanner.nextInt();
+		
+		float areaTriangulo = (float) (B * C) / 2;
+		
+		
+		
+	}
+
+}

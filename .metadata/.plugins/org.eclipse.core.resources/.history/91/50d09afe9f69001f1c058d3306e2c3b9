@@ -1,0 +1,33 @@
+package whilelista11;
+
+import java.util.Scanner;
+
+public class Ex011 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int somaPar = 0;
+		int somaImpar = 0;
+
+		System.out.print("Digite o primeiro número: ");
+		int n1 = scanner.nextInt();
+		System.out.print("Digite o segundo número: ");
+		int n2 = scanner.nextInt();
+		
+		int menorNum = Math.min(n1, n2);
+		int maiorNum = Math.max(n1, n2);
+		
+		while (menorNum < maiorNum) {
+			if (menorNum % 2 == 0) {
+				numPar += menorNum;
+			} else {
+				numImpar += menorNum;
+			}
+			menorNum += 1;
+			
+		} 
+		scanner.close();
+	}
+
+}

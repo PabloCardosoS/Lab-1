@@ -1,0 +1,26 @@
+package whilelista14;
+
+import java.util.Scanner;
+
+public class Ex014 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int i = 1;
+		
+		System.out.print("Digite um número: ");
+		int n = scanner.nextInt();
+		
+		while (i < n) {
+			i++;
+			if (n % i == 0) {
+				System.out.println("Não é primo.");
+				break;
+			}
+						
+		}
+		
+		System.out.println("É PRIMO.");
+	}
+
+}
